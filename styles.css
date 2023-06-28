@@ -1,5 +1,6 @@
 
 /* Your CSS Code here. */
+
 input{
 	width:400px;
 	margin-bottom:15px;
@@ -13,4 +14,7 @@ button{
 	background-color:white;
 	border:1px solid black;
 	padding:20px;
+}
+#ans{
+	background-color:blue;
 }
