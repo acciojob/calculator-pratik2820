@@ -1,7 +1,7 @@
 
 /* Your CSS Code here. */
 
-input{
+/* input{
 	width:393px;
 	margin-bottom:15px;
 }
@@ -17,4 +17,37 @@ button{
 }
 #ans{
 	background-color:blue;
+} */
+.calculator {
+  max-width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  margin-top: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 24px;
+  text-align: right;
 }
