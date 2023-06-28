@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+input{
+	width:400px;
+	margin-bottom:15px;
+}
+.container{
+	display:grid;
+	grid-template-columns:repeat(4,100px);
+}
+button{
+	border:none;
+	background-color:white;
+	border:1px solid black;
+	padding:20px;
+}
